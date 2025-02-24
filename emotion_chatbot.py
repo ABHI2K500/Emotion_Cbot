@@ -17,7 +17,7 @@ try:
     groq_api_key = st.secrets["groq_api_key"]
 except:
     # Fallback for local development
-    groq_api_key = "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"
+    groq_api_key = "Paste your Groq Api key here"
 client = groq.Client(api_key=groq_api_key)
 
 def detect_emotion():
